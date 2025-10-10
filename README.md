@@ -42,3 +42,34 @@
             <dd>Bisnis Digital</dd>
         </dl>
     </section>
+    <img width="1920" height="1200" alt="Screenshot 2025-10-09 134013" src="https://github.com/user-attachments/assets/4fe62bde-c99c-4e38-8328-e75d171c8430" />
+
+
+# membuat tabel
+
+    <table border="1" cellpadding="4" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Fakultas</th>
+                <th>Program Studi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.</td>
+                <td rowspan="3">Teknik</td>
+                <td>Teknik Informatika</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Teknik Industri</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Teknik Lingkungan</td>
+            </tr>
+        </tbody>
+    </table>
+<img width="1920" height="1200" alt="Screenshot 2025-10-09 135122" src="https://github.com/user-attachments/assets/bd23c1a7-28b6-4724-8abf-e3cfcb68d2c7" />
+
