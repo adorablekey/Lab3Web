@@ -26,3 +26,17 @@
     </ul>
 </section>
 <img width="1920" height="1200" alt="Screenshot 2025-10-09 133918" src="https://github.com/user-attachments/assets/400a9e66-06b9-4534-9c7e-fafa7d708b02" />
+
+    <section id="desc-list">
+        <h2>Description List</h2>
+        <dl>
+            <dt>Fakultas Teknik</dt>
+            <dd>Teknik Informatika</dd>
+            <dd>Teknik Industri</dd>
+            <dd>Teknik Lingkungan</dd>
+            <dt>Fakultas Ekonomi dan Bisnis</dt>
+            <dd>Akuntansi</dd>
+            <dd>Manajemen</dd>
+            <dd>Bisnis Digital</dd>
+        </dl>
+    </section>
