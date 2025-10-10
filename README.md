@@ -42,7 +42,8 @@
             <dd>Bisnis Digital</dd>
         </dl>
     </section>
-    <img width="1920" height="1200" alt="Screenshot 2025-10-09 134013" src="https://github.com/user-attachments/assets/4fe62bde-c99c-4e38-8328-e75d171c8430" />
+    
+<img width="1920" height="1200" alt="Screenshot 2025-10-09 134013" src="https://github.com/user-attachments/assets/4fe62bde-c99c-4e38-8328-e75d171c8430" />
 
 
 # membuat tabel
