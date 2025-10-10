@@ -73,3 +73,74 @@
     </table>
 <img width="1920" height="1200" alt="Screenshot 2025-10-09 135122" src="https://github.com/user-attachments/assets/bd23c1a7-28b6-4724-8abf-e3cfcb68d2c7" />
 
+# membuat from
+
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>Data Pelanggan</legend>
+            <p>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" required>
+            </p>
+            <p>
+                <label for="alamat">Alamat</label>
+                <textarea id="alamat" name="alamat" cols="20" rows="3" required></textarea>
+            </p>
+            <p>
+                <label>Jenis Kelamin</label>
+                <input id="jk_l" type="radio" name="kelamin" value="L" required> <label for="jk_l">Laki-laki</label>
+                <input id="jk_p" type="radio" name="kelamin" value="P"> <label for="jk_p">Perempuan</label>
+            </p>
+            <p>
+                <label for="kategori">Kategori Pelanggan</label>
+                <select id="kategori" name="kategori">
+                    <option value="reguler">Reguler</option>
+                    <option value="premium">Premium</option>
+                    <option value="vip">VIP</option>
+                </select>
+            </p>
+            <p>
+                <label for="produk">Produk Favorit</label><br>
+                <select id="produk" name="produk[]" multiple size="4">
+                    <option value="oli">Oli Mobil</option>
+                    <option value="ban">Ban Mobil</option>
+                    <option value="sparepart">Sparepart</option>
+                    <option value="aksesoris">Aksesoris</option>
+                </select>
+            </p>
+            <p>
+                <input type="submit" value="Kirim Data">
+            </p>
+        </fieldset>
+    </form>
+ <img width="1920" height="1200" alt="Screenshot 2025-10-09 135314" src="https://github.com/user-attachments/assets/027ec95f-1240-4ef7-8584-854c1f8e5b18" />
+
+# menambahkan CSS
+
+    <style>
+        form p > label {
+            display: inline-block;
+            width: 120px;
+        }
+        form input[type="text"],
+        form textarea,
+        form select {
+            border: 1px solid #197a43;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        form input[type="submit"] {
+            border: none;
+            background-color: #197a43;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 8px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #125c32;
+        }
+    </style>
+
+    <img width="1920" height="1200" alt="Screenshot 2025-10-09 135420" src="https://github.com/user-attachments/assets/a3727b47-8f5e-49e7-9ba6-2f04efa8b097" />
