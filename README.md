@@ -27,6 +27,8 @@
 </section>
 <img width="1920" height="1200" alt="Screenshot 2025-10-09 133918" src="https://github.com/user-attachments/assets/400a9e66-06b9-4534-9c7e-fafa7d708b02" />
 
+# membuat description list
+
     <section id="desc-list">
         <h2>Description List</h2>
         <dl>
